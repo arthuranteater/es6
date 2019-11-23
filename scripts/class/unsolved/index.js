@@ -4,7 +4,7 @@
 
 // USE CONST when you are not reassigning the variable
 
-// 1 Q: What doe you think is going to happen here?
+// 1 Q: What do you think is going to happen here?
 
 // function buildArr(num) {
 //     const arr = []
@@ -126,7 +126,7 @@
 
 //verify2('155', '155').then(res => console.log(res)).catch(err => console.error(err))
 
-//async/await
+// -----------------------********* Async. Await *********-----------------------
 
 // const init = async (pass, token, pass2, token2) => {
 //     let a = await verify(pass, token)
@@ -139,6 +139,7 @@
 
 // init('123', '124', '444', '444').then(res => console.log('res', res)).catch(err => console.error(err))
 
+// -----------------------********* Promise Example *********-----------------------
 
 // const addToEmList = (subsArr) => {
 //     return new Promise((resolve, reject) => {
@@ -159,7 +160,7 @@
 //     })
 // }
 
-// EC
+// -----------------------********* Other Cool Stuff *********-----------------------
 
 // Explain the following 
 
