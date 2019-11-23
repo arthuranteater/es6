@@ -1,5 +1,5 @@
 # es6
-es6 review, promises review, mini-profile generator project
+We'll be going over es6, promises, and mini-profile generator project hw project.
 
 Go into the scripts folder and open the index.js file to start the review.
 
