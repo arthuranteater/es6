@@ -160,6 +160,12 @@
 //     })
 // }
 
+//Reasons to use a promises...
+
+// http://callbackhell.com/
+
+// https://stackoverflow.com/questions/22539815/arent-promises-just-callbacks
+
 // -----------------------********* Other Cool Stuff *********-----------------------
 
 // Explain the following 
