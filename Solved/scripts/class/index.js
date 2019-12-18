@@ -69,7 +69,7 @@
 
 // 3 A:
 
-// const kids = require('../../../assets/datajs/kids.js')
+// const kids = require('../../assets/datajs/kids')
 
 // Note: There new importing/exporting with ES6 not supported by Node. These use the keywords export and default. Since these are not supported by Node. I won't be reviewing this yet.
 
@@ -92,8 +92,8 @@
 
 // 6 A:
 
-const { kids } = require('../../../assets/datajs/kids.js')
-// console.log(kids.coolkids[0])
+// const { coolkids } = require('../../assets/datajs/kids.js').kids
+// console.log(coolkids[0])
 
 // -----------------------********* Template Literals *********-----------------------
 
@@ -101,10 +101,12 @@ const { kids } = require('../../../assets/datajs/kids.js')
 
 // 7 A:
 
-// console.log(`${kids.coolkids[0].name} was born in the year ${kids.coolkids[0].yob}.
-// He enjoys ${kids.coolkids[0].hobbies}.`)
+// console.log(`${coolkids[0].name} was born in the year ${coolkids[0].yob}.
+// He enjoys ${coolkids[0].hobbies}.`)
 
 // -----------------------********* Rest, Spread *********-----------------------
+
+// const { kids } = require('../../assets/datajs/kids.js')
 
 // 8 Q: write arrow function that takes 2 arguments: a name and any number of hobbies to add to a kid using the rest operator
 
